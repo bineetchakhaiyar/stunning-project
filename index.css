@@ -1,0 +1,245 @@
+html {
+    margin-left: 129px;
+    margin-right: 112px;
+}
+
+header {
+    width: 100%;
+    height: 1vh;
+    background-position: left;
+    background-size: cover;
+}
+
+nav {
+    background-color: white;
+    width: 82%;
+    height: 63px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: -1px 28px;
+    box-sizing: border-box;
+    position: fixed;
+}
+
+#logo {
+    width: 100px;
+}
+
+.menu-item {
+    color: #8b8b99;
+    font-weight: 600;
+    font-size: 12px;
+    font-family: sans-serif;
+    margin-right: 52px;
+    cursor: pointer;
+    border-bottom: 4px solid white;
+}
+
+.menu-item::after {
+	position: absolute;
+	content: "";
+	width: 0%;
+	height: 4px;
+	background-color: blue;
+	left: 50%;
+	bottom: -10px;
+	transition: all 0.4s ease-in-out;
+}
+
+.menu-item:hover {
+    color: black;
+    font-size: 14px;
+    border-bottom-color: #8071D0;
+}
+
+.account {
+    font-size: 12px;
+    font-weight: 700;
+    color: #7234d6;
+    background-color: #FFD8DB;
+    padding: 16px 21px;
+    border: 0;
+    border-radius: 17px;
+    margin-right: 16px;
+    cursor: pointer;
+}
+
+main {
+    margin-top: 87px;
+}
+#landing-section {
+    width: 100%;
+    height: 81vh;
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.left-section {
+    width: 35%;
+    height: 103%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 65px;
+    margin-right: 14px;
+}
+
+.upper {
+    font-size: 54px;
+    font-weight: 760;
+    font-stretch: extra-expanded;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 317px;
+}
+
+.dot {
+    font-size: 61px;
+    color: blue;
+}
+
+.right-section {
+    width: 50%;
+    height: 100%;
+}
+
+.new-act {
+    font-size: 12px;
+    font-weight: 700;
+    color: #ffffff;
+    background-color: #5243C0;
+    padding: 16px 21px;
+    border: 0;
+    border-radius: 17px;
+    margin-right: 3px;
+    cursor: pointer;
+}
+
+.btn {
+    width: 44px;
+    height: 45px;
+    margin-left: 6px;
+}
+
+.btn:hover {
+    color: #5243C0;
+    cursor: pointer;
+}
+
+.left-top-sec {
+    margin-top: -30px;
+}
+
+.container {
+    width: 70%;
+}
+
+.left-top-sec p{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #686874;
+    margin-bottom: 20px;
+    
+}
+
+.left-mid-sec {
+    display: flex;
+    align-items: center;
+}
+
+.left-bot-sec {
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+}
+
+.detail {
+    width: 116px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.date {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #8b8b99;
+}
+
+body{
+    background: #fff;
+  }
+
+.box {
+    transition: box-shadow .3s;
+    background-color: lightgrey;
+    width: 370px;
+    margin: 5px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 10px;
+    border: 20px black;
+    background: rgb(248, 246, 246);
+    float: left;
+}
+  
+  .box:hover {
+    box-shadow: 0 0 31px rgba(44, 48, 43, 0.2);
+    background: #ffffff;
+    cursor: pointer;
+  }
+  
+  .tick-grey:hover {
+       content: url("https://i.ibb.co/S0pvYmj/tick-blue.png");
+  }
+
+  .btn-small1 {
+     background-color: #FED7DA;
+     border: 0;
+     width: 18px;
+     height: 10px;
+     border-radius: 20px;
+     margin-right: 10px;
+  }
+
+  .btn-small2 {
+    background-color: #FD6534;
+    border: 0;
+    width: 18px;
+    height: 10px;
+    border-radius: 20px;
+    margin-right: 10px;
+ }
+
+ .btn-small3 {
+    background-color: #9ED095;
+    border: 0;
+    width: 18px;
+    height: 10px;
+    border-radius: 20px;
+    margin-right: 10px;
+ }
+
+ .btn-small4 {
+    background-color: #FFE4A0;
+    border: 0;
+    width: 18px;
+    height: 10px;
+    border-radius: 20px;
+    margin-right: 10px;
+ }
+  
+  .tick-grey {
+     margin-left: 15px;
+     width: 25px;
+  }
+
+  .tick-blue {
+    margin-left: 15px;
+    width: 25px;
+ }
+  .user-icon {
+     width: 32px;
+     margin-top: 5px;
+  }
